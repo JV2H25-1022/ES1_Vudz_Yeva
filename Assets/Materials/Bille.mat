@@ -25,7 +25,7 @@ Material:
   disabledShaderPasses:
   - DepthOnly
   - SHADOWCASTER
-  m_LockedProperties: 
+  m_LockedProperties: _ReceiveShadows
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -118,9 +118,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.2011776, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.20117757, a: 1}
-    - _EmissionColor: {r: 4.0754724, g: 0.055953577, b: 0, a: 1}
+    - _BaseColor: {r: 1, g: 0.3915094, b: 0.51320773, a: 1}
+    - _Color: {r: 1, g: 0.39150938, b: 0.51320773, a: 1}
+    - _EmissionColor: {r: 10.41668, g: 0.14740558, b: 2.0124538, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &8240086268325097897
