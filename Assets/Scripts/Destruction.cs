@@ -5,14 +5,12 @@ using UnityEngine;
 public class Destruction : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    void OnCollisionEnter(Collision collision)
     {
-        
+        print(collision.gameObject.name + " : " + collision.gameObject.tag);
+        if(collision.gameObject.CompareTag("CubeRouge")){
+            Destroy(collision.gameObject);
+           }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
