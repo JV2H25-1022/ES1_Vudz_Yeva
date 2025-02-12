@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 49597810}
   - component: {fileID: 49597809}
   m_Layer: 0
-  m_Name: PlataformeInitiale
+  m_Name: PlateformeInitiale
   m_TagString: plateformeCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
